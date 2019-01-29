@@ -20,19 +20,6 @@
 #  name = "github.com/x/y"
 #  version = "2.4.0"
 
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/btcsuite/btcd"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/btcsuite/btcutil"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/btcsuite/btcwallet"
-
 [[constraint]]
   branch = "master"
   name = "github.com/decred/dcrd"
@@ -40,18 +27,6 @@
 [[constraint]]
   branch = "master"
   name = "github.com/decred/dcrwallet"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/viacoin/viad"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/viacoin/viautil"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/viacoin/viawallet"
 
 [[constraint]]
   branch = "ltcatomicswap"
@@ -76,71 +51,3 @@
   name = "google.golang.org/grpc"
   version = "1.6.0"
 
-[[constraint]]
-  branch = "master"
-  name = "github.com/vertcoin/vtcd"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/vertcoin/vtcutil"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/vertcoin/vtcwallet"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/particl/partsuite_partd"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/particl/partsuite_partutil"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/particl/partsuite_partwallet"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/DesWurstes/btcd"
-
-[[constraint]]
-  # Further commits have not been tested with bchatomicswap yet.
-  revision = "223045ec4d9ef2fcc7c6ed62f9a8ed80ac9bdf58"
-  name = "github.com/cpacia/bchutil"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/wakiyamap/monad"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/wakiyamap/monautil"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/wakiyamap/monawallet"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/zcoinofficial/xzcd"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/zcoinofficial/xzcutil"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/zcoinofficial/xzcwallet"
-  
-[[constraint]] 
-  branch = "master" 
-  name = "github.com/polissuite/gopolis"
-  
-[[constraint]] 
-  branch = "master" 
-  name = "github.com/polissuite/gopolisutil"
- 
-[[constraint]] 
-  branch = "master" 
-  name = "github.com/polissuite/gopoliswallet"

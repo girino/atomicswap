@@ -1,0 +1,66 @@
+diff -p -r vendor/github.com/ltcsuite/ltcd/chaincfg/params.go vendor.bak/github.com/ltcsuite/ltcd/chaincfg/params.go
+*** vendor/github.com/ltcsuite/ltcd/chaincfg/params.go	Tue Jan 29 09:45:39 2019
+--- vendor.bak/github.com/ltcsuite/ltcd/chaincfg/params.go	Tue Jan 29 09:49:05 2019
+*************** var MainNetParams = Params{
+*** 307,314 ****
+  	Bech32HRPSegwit: "ltc", // always ltc for main net
+  
+  	// Address encoding magics
+! 	PubKeyHashAddrID:        0x30, // starts with L
+! 	ScriptHashAddrID:        0x50, // starts with M
+  	PrivateKeyID:            0xB0, // starts with 6 (uncompressed) or T (compressed)
+  	WitnessPubKeyHashAddrID: 0x06, // starts with p2
+  	WitnessScriptHashAddrID: 0x0A, // starts with 7Xh
+--- 307,314 ----
+  	Bech32HRPSegwit: "ltc", // always ltc for main net
+  
+  	// Address encoding magics
+! 	PubKeyHashAddrID:        97,   // starts with g
+! 	ScriptHashAddrID:        50,   // starts with M
+  	PrivateKeyID:            0xB0, // starts with 6 (uncompressed) or T (compressed)
+  	WitnessPubKeyHashAddrID: 0x06, // starts with p2
+  	WitnessScriptHashAddrID: 0x0A, // starts with 7Xh
+diff -p -r vendor/github.com/ltcsuite/ltcutil/amount.go vendor.bak/github.com/ltcsuite/ltcutil/amount.go
+*** vendor/github.com/ltcsuite/ltcutil/amount.go	Tue Jan 29 09:45:38 2019
+--- vendor.bak/github.com/ltcsuite/ltcutil/amount.go	Tue Jan 29 00:07:35 2019
+*************** const (
+*** 33,51 ****
+  func (u AmountUnit) String() string {
+  	switch u {
+  	case AmountMegaBTC:
+! 		return "MLTC"
+  	case AmountKiloBTC:
+! 		return "kLTC"
+  	case AmountBTC:
+! 		return "LTC"
+  	case AmountMilliBTC:
+! 		return "mLTC"
+  	case AmountMicroBTC:
+! 		return "μLTC"
+  	case AmountSatoshi:
+! 		return "Satoshi"
+  	default:
+! 		return "1e" + strconv.FormatInt(int64(u), 10) + " LTC"
+  	}
+  }
+  
+--- 33,51 ----
+  func (u AmountUnit) String() string {
+  	switch u {
+  	case AmountMegaBTC:
+! 		return "MGIR"
+  	case AmountKiloBTC:
+! 		return "kGIR"
+  	case AmountBTC:
+! 		return "GIR"
+  	case AmountMilliBTC:
+! 		return "mGIR"
+  	case AmountMicroBTC:
+! 		return "μGIR"
+  	case AmountSatoshi:
+! 		return "girininhos"
+  	default:
+! 		return "1e" + strconv.FormatInt(int64(u), 10) + " GIR"
+  	}
+  }
+  

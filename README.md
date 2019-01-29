@@ -9,16 +9,8 @@ This repository contains utilities to manually perform cross-chain atomic swaps
 between various supported pairs of cryptocurrencies.  At the moment, support
 exists for the following coins and wallets:
 
-* Bitcoin ([Bitcoin Core](https://github.com/bitcoin/bitcoin))
-* Bitcoin Cash ([Bitcoin ABC](https://github.com/Bitcoin-ABC/bitcoin-abc), [Bitcoin Unlimited](https://github.com/BitcoinUnlimited/BitcoinUnlimited), [Bitcoin XT](https://github.com/bitcoinxt/bitcoinxt))
 * Decred ([dcrwallet](https://github.com/decred/dcrwallet))
-* Litecoin ([Litecoin Core](https://github.com/litecoin-project/litecoin))
 * Monacoin ([Monacoin Core](https://github.com/monacoinproject/monacoin))
-* Particl ([Particl Core](https://github.com/particl/particl-core))
-* Polis ([Polis Core](https://github.com/polispay/polis))
-* Vertcoin ([Vertcoin Core](https://github.com/vertcoin/vertcoin))
-* Viacoin ([Viacoin Core](https://github.com/viacoin/viacoin))
-* Zcoin ([Zcoin Core](https://github.com/zcoinofficial/zcoin))
 
 External support exists for the following coins and wallets:
 
